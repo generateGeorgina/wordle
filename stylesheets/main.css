@@ -1,3 +1,8 @@
+:root {
+    --large-font: 2rem;
+    --small-font: 1.15rem;
+}
+
 /* Set font and remove default padding and margins */
 * {
     font-family: 'Raleway', sans-serif;
@@ -10,11 +15,40 @@
     text-align: center;
 }
 
+/* styling each input box for character input */
 .letter {
-    font-size: 2rem;
+    font-size: var(--large-font);
     text-align: center;
     text-transform: uppercase;
     width: 3rem;
     height: 3rem;
     border: 0.15rem solid rgb(201, 201, 201);
+}
+
+/* Center the submit button using flexbox */
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    margin-top: 1.5rem;;
+}
+
+.title {
+    padding-top: 5rem;
+}
+
+.first-row {
+    padding-top: 2.5rem;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    font-size: var(--small-font);
+    border-radius: 15%;
+}
+
+.green-tile {
+    background-color: green;
 }

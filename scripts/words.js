@@ -1,0 +1,1 @@
+export const words = ["hello", "windy", "ghost"]
