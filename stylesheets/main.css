@@ -10,12 +10,12 @@
     margin: 0;
 }
 
-/* center text and input fields */
+/* Center text and input fields */
 .center {
     text-align: center;
 }
 
-/* styling each input box for character input */
+/* Styling each input box for character input */
 .letter {
     font-size: var(--large-font);
     text-align: center;
@@ -34,21 +34,24 @@
     margin-top: 1.5rem;;
 }
 
+/* Position title */
 .title {
     padding-top: 5rem;
 }
 
+/* Position first row */
 .first-row {
     padding-top: 2.5rem;
 }
 
+/* Styling button */
 button {
     border: none;
     padding: 1rem;
     font-size: var(--small-font);
     border-radius: 15%;
 }
-
+/* Activated when a letter is correctly guessed */
 .green-tile {
     background-color: green;
 }

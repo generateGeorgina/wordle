@@ -11,7 +11,13 @@ export const newWord = (event) => {
     const fourthLetter = inputElements[3].value;
     const fifthLetter = inputElements[4].value;
     
+    // Create word from input values
     const wordGuess = firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter;
-    console.log(wordGuess);
+    
+    // Convert word guess to lower case to match the format in words.js
+    wordGuess.toLowerCase();
+    // console.log(wordGuess);
+
+    // Compares each letter to the correct word
     compareLetters(wordGuess, words[0], inputElements);
 };

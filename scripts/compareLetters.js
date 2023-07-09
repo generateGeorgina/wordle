@@ -3,10 +3,14 @@ export const compareLetters = (newWord, correctWord, inputArray) => {
         // console.log(newWord);
         // console.log(correctWord);
         if(newWord[i] === correctWord[i]) {
-            inputArray[i].classList.toggle("green-tile");
+            console.log(inputArray);
+            inputArray[i].classList.add("green-tile");
+            inputArray[i].value = "";
+            inputArray[i].value = newWord[i];
             console.log(inputArray[i]);
         } else {
-            console.log("This did not work");
+            inputArray[i].classList.remove("green-tile");
+            console.log("This letter does not belong here");
         }
     }
 }
