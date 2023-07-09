@@ -18,6 +18,6 @@ export const newWord = (event) => {
     wordGuess.toLowerCase();
     // console.log(wordGuess);
 
-    // Compares each letter to the correct word
+    // Compares each letter to the correct word - hard coded to test "hello"
     compareLetters(wordGuess, words[0], inputElements);
 };
