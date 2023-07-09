@@ -17,3 +17,6 @@ I worked on the following user story. Check out my *issues* to find all user sto
 
 ## Notable Challenges
 I was working on the logic to update the background colour of the input element to green by adding and removing a class to the element. Initially, this did not work as intended. It only updated to green after hitting the submit button **and** manually typing in the letter in again. I fixed this issue (so that the input element turns green straight after clicking the submit button) by setting the value of the input element to and empty string and back to the original letter again.
+
+## Deployed site
+I created an AWS s3 bucket to deploy this site: https://wordle-two-bucket.s3.eu-west-2.amazonaws.com/wordle/index.html
